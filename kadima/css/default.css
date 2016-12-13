@@ -31,7 +31,7 @@
     background-color: #31A3DD;
 }
 .dropdown-menu {
-    background-color: rgba(49, 162, 221, 0.9);
+    background-color: #333;
 }
 
 /** headings titles css ***/
@@ -240,10 +240,10 @@
     border-top: 3px solid #f5f5f5;
 }
 .kadima_blog_read_btn {
-    border: 2px solid #31A3DD;
+	border: 2px solid #e4010c;
     background-size: 100% 200%;
-    background-color: #31A3DD;
-    background-image: linear-gradient(to bottom, #31A3DD 50%, #fff 50%);
+    background-color: #e4010c;
+    background-image: linear-gradient(to bottom, #e4010c 50%, #fff 50%);
 }
 .kadima_blog_read_btn i {
     margin-right: 5px;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     min-width: 200px;
     padding: 0px 0;
-    margin: 2px 0 0;
+    margin: 0px 0 0;
     font-size: 14px;
     list-style: none;
     background-clip: padding-box;
@@ -671,6 +671,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     text-transform: uppercase;
     font-family: 'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
+	border-top: 1px solid #fff;
 }
 .dropdown-menu> li> a {
     display: block;
@@ -689,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu> li> a:hover, .dropdown-menu> li> a:focus {
     color: #000;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff !important;
     padding: 7px 20px 7px 22px;
     font-family: 'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
 }
@@ -704,7 +705,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 .dropdown-menu> .active> a, .dropdown-menu> .active> a:hover, .dropdown-menu> .active> a:focus {
-    color: #333;
+    
     text-decoration: none;
     background-color: #fff;
     outline: 0;
@@ -766,7 +767,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-collapse {
     max-height: 340px;
     padding-right: 15px;
-    margin-top: 35px;
+    margin-top: 24px;
 
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;

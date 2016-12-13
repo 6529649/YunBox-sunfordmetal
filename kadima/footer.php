@@ -1,7 +1,36 @@
 <!-- kadima Callout Section -->
 <?php $wl_theme_options = kadima_get_options(); ?>
 	<div style="background-color: #333;">
-			
+			<div class="col-md-12" style="background:url(http://sunfordmetal.site.yunclever.com/wp-content/themes/kadima/images/contact-us-bj.jpg) no-repeat 0px 0px;">
+							<div class="icon2" style="color: #fff;">
+									<div class="col-md-12" style="margin-top: 2em;text-align: center;margin-bottom: 2em;">
+											<div class="col-md-3" >
+											<ul style=";padding: 0;">
+													<li style="display: inline-block;padding: 0.1em 0;"><i class="indicate"></i></li>
+													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">Info@sunfordmetal.com</p></li>
+											</ul>
+											</div>
+											<div class="col-md-3" >
+											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
+													<li style="display: inline-block;padding: 0.1em 0;"><i class="phone"></i></li>
+													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">+86-592-5165692</p></li>
+											</ul>
+											</div>
+											<div class="col-md-3" >
+											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
+													<li style="display: inline-block;padding: 0.1em 0;"><i class="message"></i></li>
+													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">+86 13666079207&nbsp&nbsp&nbsp+86 18906002206</p></li>
+											</ul>
+											</div>
+											<div class="col-md-3" >
+											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
+													<li style="display: inline-block;padding: 0.1em 0;"><i class="skype"></i></li>
+													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">cnsunfordf</p></li>
+											</ul>
+											</div>
+									</div>
+							</div>
+			</div>
 			<div class="col-md-12" style="background-color: #747474;padding-top: 10px;padding-bottom: 10px;">
 			    <div class="copyright-right wow fadeInRight animated animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
 			        <ul >

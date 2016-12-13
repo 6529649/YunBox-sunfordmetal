@@ -3,8 +3,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1><?php global $wp;
-				echo $current_url = (add_query_arg(array(),$wp->request)); ?></h1>
+				<!--<h1><?php global $wp;
+				echo $current_url = (add_query_arg(array(),$wp->request)); ?></h1>-->
 				<!-- BreadCrumb -->
                 <?php if (function_exists('kadima_breadcrumbs')) kadima_breadcrumbs(); ?>
                 <!-- BreadCrumb -->

@@ -20,34 +20,6 @@
 <div style="background-color: #333;">
 			<div class="col-md-12" style="background:url(./wp-content/themes/kadima/images/contact-us-bj.jpg) no-repeat 0px 0px;">
 					<h3 style="color: #fff;font-size: 2.5em;"><?php echo esc_attr($wl_theme_options['footer_customizations']); ?></h3>
-							<div class="icon2" style="color: #fff;">
-									<div class="col-md-12" style="margin-top: 2em;text-align: center;margin-bottom: 2em;">
-											<div class="col-md-3" >
-											<ul style=";padding: 0;">
-													<li style="display: inline-block;padding: 0.1em 0;"><i class="indicate"></i></li>
-													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">funford@sunfordmetal.com</p></li>
-											</ul>
-											</div>
-											<div class="col-md-3" >
-											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
-													<li style="display: inline-block;padding: 0.1em 0;"><i class="phone"></i></li>
-													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">+86-592-5165692</p></li>
-											</ul>
-											</div>
-											<div class="col-md-3" >
-											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
-													<li style="display: inline-block;padding: 0.1em 0;"><i class="message"></i></li>
-													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">cnsunfordf</p></li>
-											</ul>
-											</div>
-											<div class="col-md-3" >
-											<ul style=";padding: 0;" style=";padding: 0;margin-top: 1.5em;">
-													<li style="display: inline-block;padding: 0.1em 0;"><i class="skype"></i></li>
-													<li style="display: inline-block;padding: 0.1em 0;"><p class="label1">13666079207</p></li>
-											</ul>
-											</div>
-									</div>
-							</div>
 			</div>
 	
 	</div>

@@ -22,6 +22,7 @@ p{
     padding:0 0;
     margin:0 0;
     font-family: 'Arial';
+	border-top-color: #333 !important;
 
 
 }
@@ -59,8 +60,12 @@ body{
 }
 .top-menu ul li{
     display:inline-block;
-
 }
+.top-menu  ul li .dropdown-menu li{
+    display:inline-block;
+	width:100%;
+}
+
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 .top-menu ul li a{
     font-size:1.2em;
@@ -73,6 +78,21 @@ body{
     font-family: 'Arial';
 	background-color:#333 !important;
 }
+
+.top-menu  ul li a{
+    font-size:1.2em;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Arial';
+	background-color:#333 !important;
+}
+
+
+
 .top-menu ul li a: {
     color: #fff;
 }
@@ -361,13 +381,49 @@ a.button {
     border-radius: 5px;
     font-family: 'Arial';
 }
-a.button:hover {
+
+.carousel-indicators a.button {
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #e4000d;
+    padding: 0.8em 1em;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Arial';
+	position: absolute;
+    left: 50%;
+    z-index: 15;
+    /* width: 60%; */
+    padding-left: 0;
+    margin-left: -78px;
+    text-align: center;
+    list-style: none;
+    top: 95%;
+    margin-top: 10px;
+}
+.carousel-indicators a.button:hover {
     background: #000;
     color: #fff !important;
 }
 
 
+.carousel-indicators{
+	margin-bottom: 50px;
+}
 
+
+
+
+.most-1 a.button:hover {
+    background: #000;
+    color: #fff !important;
+}
+
+a.button:hover {
+    background: #000;
+    color: #e4000d !important;
+}
 
 .contact-section{
     padding: 2em 0;
@@ -406,7 +462,7 @@ a.button:hover {
     height: 65px;
     position: absolute;
     margin-top: -32.5px;
-    padding-top: 16px;
+    padding-top: 13px;
     margin-left:-32.5px
 }
 
@@ -676,6 +732,11 @@ i.skype {
     font-weight: bold;
     font-family: 'Arial';
 }
+
+.products li h3{
+	color:#555;
+}
+
 
 
 .do-box:hover h3.lnr{
